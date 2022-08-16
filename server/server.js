@@ -12,6 +12,6 @@ async function startServer(){
     await mongoConnect()
     await loadAPI()
     await loadPlanets()
-    server.listen(PORT, ()=> console.log('Run at port '+ PORT))
+    server.listen(PORT, ()=> console.log('server run at port'+ PORT))
 }
 startServer()
